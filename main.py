@@ -14,9 +14,6 @@ x, y = map(int, input().split(","))
 min_distance = 20 # заведомо больше расстояния между любыми точками в квадрате 10x10
 candidate = None # специальное значение, обозначающее отсутствие чего-либо
 
-def distance(a, b):
-  return 
-
 for current_item in database:
   current_distance = math.dist([x, y], current_item[3])
   if current_distance < min_distance:
