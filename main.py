@@ -2,7 +2,7 @@ import math
 
 database = [
   # Название, жанр, рейтинг, координаты embedding
-  ["Harry Potter", "fantasy", 9, [1, 5]]
+  ["Harry Potter", "fantasy", 9, [1, 5]],
   ["Star Wars", "space opera", 8, [2, 3]]
 ]
 
